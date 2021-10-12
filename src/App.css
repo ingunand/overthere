@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+
+}
+body{
+  background-color: rgb(152, 240, 255);
+  margin:0;
+}
+
+.previousCounterBox{
+  text-align: left;
+  background-color: rgb(196, 246, 255);
+  margin:20px;
+  padding:1px 6px;
+}
+
+main{
+  display:flex;
+}
+
+#allPreviousCounterBoxes{
+  width:20%;
+  margin-top: 15px;
+}
+
+#buttonCounterBox{
+  width:75%;
+  height:80vh;
+}
+
+#counter{
+  width:100%;
+  height:95%;
+  background-color:rgb(196, 246, 255);
+  border:none;
+  margin-top: 15px;
+}
+
+#counter:hover, #addData:hover{
+  background-color:rgb(174, 234, 247);
+}
+
+#addData{
+  background-color:rgb(196, 246, 255);
+  margin: 30px;
+  padding: 5px;
+}
