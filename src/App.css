@@ -14,6 +14,10 @@ body{
   padding:1px 6px;
 }
 
+h1{
+  width:95%;
+}
+
 main{
   display:flex;
 }
@@ -24,7 +28,7 @@ main{
 }
 
 #buttonCounterBox{
-  width:75%;
+  width:95%;
   height:80vh;
 }
 
@@ -34,6 +38,10 @@ main{
   background-color:rgb(196, 246, 255);
   border:none;
   margin-top: 15px;
+}
+
+#buttonetc{
+  width:80%;
 }
 
 #counter:hover, #addData:hover{

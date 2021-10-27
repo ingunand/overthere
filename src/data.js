@@ -17,4 +17,9 @@ export const counterData= [{
     "date":"12. Oktober",
     "count":52,
     "hours":2
+},
+{
+    "date":"26. Oktober",
+    "count":98,
+    "hours":2
 }]

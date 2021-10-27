@@ -6,12 +6,14 @@ import PreviousCounters from './components/previous-counters';
 function App() {
   return (
     <body className="App">
-        <h1>Over There Counter</h1>
         <main>
           <div id="allPreviousCounterBoxes">
-           <PreviousCounters/>
+            <PreviousCounters/>
           </div>
-          <CountButton/>
+          <div id="buttonetc">
+          <h1>Over There Counter</h1>
+            <CountButton/>
+          </div>
         </main>
       </body>
   );
