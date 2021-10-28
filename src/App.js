@@ -8,6 +8,7 @@ function App() {
     <body className="App">
         <main>
           <div id="allPreviousCounterBoxes">
+            <h2>Previous Counters</h2>
             <PreviousCounters/>
           </div>
           <div id="buttonetc">

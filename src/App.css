@@ -53,3 +53,19 @@ main{
   margin: 30px;
   padding: 5px;
 }
+
+@media only screen and (max-width: 800px) {
+ main{
+   flex-direction: column;
+ }
+
+ #allPreviousCounterBoxes, #buttonetc{
+   width:80%;
+   margin: 15px auto;
+ }
+
+ 
+#allPreviousCounterBoxes{
+  order:1;
+}
+}
