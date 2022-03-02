@@ -1,71 +1,75 @@
 .App {
-  text-align: center;
-
-}
-body{
-  background-color: rgb(152, 240, 255);
-  margin:0;
+    text-align: center;
 }
 
-.previousCounterBox{
-  text-align: left;
-  background-color: rgb(196, 246, 255);
-  margin:20px;
-  padding:1px 6px;
+body {
+    background-color: rgb(152, 240, 255);
+    margin: 0;
 }
 
-h1{
-  width:95%;
+.previousCounterBox {
+    text-align: left;
+    background-color: rgb(196, 246, 255);
+    margin: 20px;
+    padding: 1px 6px;
 }
 
-main{
-  display:flex;
+h1 {
+    width: 95%;
 }
 
-#allPreviousCounterBoxes{
-  width:20%;
-  margin-top: 15px;
+main {
+    display: flex;
 }
 
-#buttonCounterBox{
-  width:95%;
-  height:80vh;
+#allPreviousCounterBoxes {
+    width: 20%;
+    margin-top: 15px;
 }
 
-#counter{
-  width:100%;
-  height:95%;
-  background-color:rgb(196, 246, 255);
-  border:none;
-  margin-top: 15px;
+#buttonCounterBox {
+    width: 95%;
+    height: 85vh;
 }
 
-#buttonetc{
-  width:80%;
+#counter {
+    width: 56%;
+    height: 94%;
+    /*background-color:rgb(196, 246, 255);*/
+    background-color: rgb(152, 240, 255);
+    background: url("overthere_large.png")no-repeat center;
+    border: none;
+    margin-top: 15px;
 }
 
-#counter:hover, #addData:hover{
-  background-color:rgb(174, 234, 247);
+#counter:hover {
+    background: url("overthere_large_shadow.png") no-repeat center;
 }
 
-#addData{
-  background-color:rgb(196, 246, 255);
-  margin: 30px;
-  padding: 5px;
+#buttonetc {
+    width: 80%;
+}
+
+#addData:hover {
+    background-color: rgb(174, 234, 247);
+}
+
+#addData {
+    background-color: rgb(196, 246, 255);
+    margin: 30px;
+    padding: 5px;
 }
 
 @media only screen and (max-width: 800px) {
- main{
-   flex-direction: column;
- }
-
- #allPreviousCounterBoxes, #buttonetc{
-   width:80%;
-   margin: 15px auto;
- }
-
- 
-#allPreviousCounterBoxes{
-  order:1;
-}
+    main {
+        flex-direction: column;
+    }
+    #allPreviousCounterBoxes,
+    #buttonetc {
+        width: 80%;
+        margin: 15px auto;
+    }
+    #allPreviousCounterBoxes {
+        order: 1;
+    }
 }

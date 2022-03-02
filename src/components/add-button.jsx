@@ -1,6 +1,6 @@
 import React from 'react';
 
-class CountButton extends React.Component {
+class AddButton extends React.Component {
     constructor (props){
         super(props);
         this.state = {value:0};
@@ -14,11 +14,12 @@ class CountButton extends React.Component {
     render() {
       return (
             <div id="buttonCounterBox">
-                <div>Over there: {this.state.value}</div> {/*<span id="addData">Add data to collection</span>*/}
-                <button onClick={this.buttonClicked} id ="counter" alt="Attilas face"></button>
+                <span>Over there: {this.state.value}</span> {/*<span id="addData">Add data to collection</span>*/}
+                <button onClick={this.buttonClicked} id ="addButton">Save to counters</button>
+
             </div>
             );
     }
 }
 
-export default CountButton;
+export default AddButton;
