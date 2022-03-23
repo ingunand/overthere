@@ -33,17 +33,30 @@ main {
 }
 
 #counter {
-    width: 56%;
-    height: 94%;
-    /*background-color:rgb(196, 246, 255);*/
+    width: 100%;
+    /*background-color:rgb(196, 246, 255);
     background-color: rgb(152, 240, 255);
     background: url("overthere_large.png")no-repeat center;
+    background-size: cover;*/
     border: none;
     margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#counter:hover {
-    background: url("overthere_large_shadow.png") no-repeat center;
+#counter img {
+    width: 50%;
+    margin-top: 50px;
+}
+
+#counter img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#counter img:active {
+    transform: scale(1.1);
 }
 
 #buttonetc {

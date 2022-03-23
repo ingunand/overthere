@@ -1,4 +1,5 @@
 import React from 'react';
+import attila from '../overthere_large.png';
 
 class CountButton extends React.Component {
     constructor (props){
@@ -15,7 +16,7 @@ class CountButton extends React.Component {
       return (
             <div id="buttonCounterBox">
                 <div>Over there: {this.state.value}</div> {/*<span id="addData">Add data to collection</span>*/}
-                <button onClick={this.buttonClicked} id ="counter" alt="Attilas face"></button>
+                <div onClick={this.buttonClicked} id ="counter"><img src={attila} alt="Attilas face"></img></div>
             </div>
             );
     }
